@@ -2,9 +2,52 @@
 <html>
 <head>
   <title>AI Video Automation</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: #0f172a;
+      color: white;
+      text-align: center;
+      padding: 50px;
+    }
+    .box {
+      background: #1e293b;
+      padding: 30px;
+      border-radius: 12px;
+      max-width: 400px;
+      margin: auto;
+    }
+    button {
+      background: #22c55e;
+      border: none;
+      padding: 12px 20px;
+      margin-top: 10px;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      width: 100%;
+    }
+    input, textarea {
+      width: 100%;
+      margin-top: 10px;
+      padding: 10px;
+      border-radius: 6px;
+      border: none;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>AI Video Automation</h1>
-  <p>This app allows users to create, review, and post videos to TikTok with approval.</p>
+  <div class="box">
+    <h1>AI Video Automation</h1>
+
+    <button>Login with TikTok</button>
+
+    <input type="file" />
+
+    <textarea placeholder="Write a caption..."></textarea>
+
+    <button>Post to TikTok</button>
+  </div>
 </body>
 </html>
